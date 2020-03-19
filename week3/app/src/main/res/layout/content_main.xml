@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >-->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <!--<View
+            android:id="@+id/view1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#ADFF10"
+            android:layout_allignParentTop="true"
+            android:layout_alignParentEnd="true"
+            />
+
+         <View
+             android:id="@+id/view2"
+             android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#F10"
+             android:layout_toStartOf="@+id/view1"
+             android:layout_below="@+id/view1"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view2"
+        android:layout_toEndOf="@id/view2"
+        android:background="#AA3456" />-->
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:prompt="@string/prompt"/>
+
+    </RelativeLayout>
+
+<!--
+</ScrollView>-->
